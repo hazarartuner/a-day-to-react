@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4bcb7bc8-78ef-4766-9a43-fb95f973025e" name="Default" comment="" />
+    <list default="true" id="4bcb7bc8-78ef-4766-9a43-fb95f973025e" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/evnt-theme.webflow.3982ce5ee.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/evnt-theme.webflow.3982ce5ee.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -14,34 +18,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="crawl.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crawl.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+            <state relative-caret-position="461">
+              <caret line="106" column="8" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="8" />
               <folding>
-                <element signature="e#6569#6574#0" expanded="true" />
-                <element signature="e#52704#52709#0" expanded="true" />
-                <element signature="e#83315#83320#0" expanded="true" />
-                <element signature="e#86075#86080#0" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#29648#29653#0" expanded="true" />
+                <element signature="e#58000#58005#0" expanded="true" />
+                <element signature="e#60600#60605#0" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#4;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="evnt-theme.webflow.3982ce5ee.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/evnt-theme.webflow.3982ce5ee.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="53">
+              <caret line="1063" column="12" selection-start-line="1063" selection-start-column="2" selection-end-line="1063" selection-end-column="12" />
+              <folding>
+                <element signature="e#2542#4388#1" expanded="true" />
+                <element signature="e#4408#6293#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -56,17 +59,42 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>src=</find>
-      <find>src=&quot;([^&quot;]+.jpg)&quot;</find>
-      <find>570e2011e725ba4e712cc49f_speaker1.jpg</find>
-      <find>webfont</find>
-      <find>src=&quot;(https?://[^&quot;]+.jpg)&quot;</find>
-      <find>src=&quot;(https?://[^&quot;]+.png)&quot;</find>
-      <find>webflo</find>
-      <find>webflow.</find>
-      <find>&lt;link</find>
-      <find>.css</find>
+      <find>assets/img</find>
+      <find>-brand</find>
+      <find>nav-brand</find>
+      <find>#222</find>
+      <find>#be1a39</find>
+      <find>Events</find>
+      <find>Home</find>
+      <find>schedules</find>
+      <find>schedule</find>
+      <find>LOCATION</find>
+      <find>lokasyon</find>
+      <find>Sign</find>
+      <find>Prices</find>
+      <find>Mek</find>
+      <find>Mekân</find>
+      <find>sponsors</find>
+      <find>Konuşma</find>
+      <find>Speak-p</find>
+      <find>speakers</find>
+      <find>ABOUT</find>
+      <find>padding-bottom: 120px</find>
+      <find>price</find>
+      <find>padding-bottom</find>
+      <find>padding-bottom: 12</find>
+      <find>beige</find>
+      <find>Lokasyon</find>
+      <find>instag</find>
+      <find>Ücret</find>
+      <find>Speakers</find>
+      <find>font-famil</find>
     </findStrings>
+    <replaceStrings>
+      <replace>images</replace>
+      <replace>#333333;</replace>
+      <replace>#bf1e2e;</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -74,9 +102,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/crawl.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/css/evnt-theme.webflow.3982ce5ee.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -121,9 +150,11 @@
     <property name="node.js.selected.package.prettier" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -149,21 +180,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551083194806</updated>
-      <workItem from="1551083196051" duration="4220000" />
+      <workItem from="1551083196051" duration="11235000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4220000" />
+    <option name="totallyTimeSpent" value="11235000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24986821" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16236162" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection Results" visible="true" weight="0.24469161" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -194,37 +226,14 @@
         <state relative-caret-position="179">
           <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
           <folding>
-            <element signature="e#6569#6574#0" expanded="true" />
-            <element signature="e#52704#52709#0" expanded="true" />
-            <element signature="e#83315#83320#0" expanded="true" />
-            <element signature="e#86075#86080#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/evnt-theme.webflow.3982ce5ee.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="1426" column="3" lean-forward="true" selection-start-line="1426" selection-start-column="3" selection-end-line="1426" selection-end-column="3" />
-          <folding>
-            <element signature="e#2542#4388#1" expanded="true" />
-            <element signature="e#4408#6293#1" expanded="true" />
-            <element signature="e#21706#22019#2" expanded="true" />
-            <element signature="e#22085#22402#2" expanded="true" />
-            <element signature="e#22459#22804#2" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
-          <folding>
-            <element signature="e#6569#6574#0" expanded="true" />
-            <element signature="e#52704#52709#0" expanded="true" />
-            <element signature="e#83315#83320#0" expanded="true" />
-            <element signature="e#86075#86080#0" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#29648#29653#0" expanded="true" />
+            <element signature="e#58000#58005#0" expanded="true" />
+            <element signature="e#60600#60605#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -242,6 +251,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="5" lean-forward="true" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/crawl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -249,10 +265,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        <state relative-caret-position="461">
+          <caret line="106" column="8" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#29648#29653#0" expanded="true" />
+            <element signature="e#58000#58005#0" expanded="true" />
+            <element signature="e#60600#60605#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/evnt-theme.webflow.3982ce5ee.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="1063" column="12" selection-start-line="1063" selection-start-column="2" selection-end-line="1063" selection-end-column="12" />
+          <folding>
+            <element signature="e#2542#4388#1" expanded="true" />
+            <element signature="e#4408#6293#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

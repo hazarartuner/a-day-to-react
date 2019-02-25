@@ -23,7 +23,7 @@ h1 {
   margin-top: 0px;
   margin-bottom: 30px;
   clear: both;
-  font-family: Economica, sans-serif;
+  font-family: PT Sans Narrow, sans-serif;
   color: #333333;
   font-size: 48px;
   line-height: 44px;
@@ -34,7 +34,7 @@ h1 {
 h2 {
   margin-top: 0px;
   margin-bottom: 30px;
-  font-family: Economica, sans-serif;
+  font-family: PT Sans Narrow, sans-serif;
   color: #333333;
   font-size: 32px;
   line-height: 36px;
@@ -45,7 +45,7 @@ h2 {
 h3 {
   margin-top: 0px;
   margin-bottom: 24px;
-  font-family: Economica, sans-serif;
+  font-family: PT Sans Narrow, sans-serif;
   color: #333333;
   font-size: 24px;
   line-height: 26px;
@@ -56,7 +56,7 @@ h3 {
 h4 {
   margin-top: 0px;
   margin-bottom: 30px;
-  font-family: Economica, sans-serif;
+  font-family: PT Sans Narrow, sans-serif;
   color: #333333;
   font-size: 21px;
   line-height: 24px;
@@ -67,7 +67,7 @@ h4 {
 h5 {
   margin-top: 0px;
   margin-bottom: 30px;
-  font-family: Economica, sans-serif;
+  font-family: PT Sans Narrow, sans-serif;
   color: #333333;
   font-size: 18px;
   line-height: 20px;
@@ -78,7 +78,7 @@ h5 {
 h6 {
   margin-top: 0px;
   margin-bottom: 10px;
-  font-family: Economica, sans-serif;
+  font-family: PT Sans Narrow, sans-serif;
   color: #333333;
   font-size: 16px;
   line-height: 18px;
@@ -122,7 +122,7 @@ label {
 
 .hero-heading {
   margin-bottom: 0px;
-  font-family: Economica, sans-serif;
+  font-family: PT Sans Narrow, sans-serif;
   color: #fff;
   text-align: center;
   text-transform: uppercase;
@@ -138,7 +138,7 @@ label {
   padding-bottom: 0px;
   -webkit-transition: background-color 400ms ease;
   transition: background-color 400ms ease;
-  font-family: Economica, sans-serif;
+  font-family: PT Sans Narrow, sans-serif;
   color: #fff;
   font-size: 16px;
   line-height: 50px;
@@ -163,7 +163,7 @@ label {
   background-color: #bf1e2e;;
   -webkit-transition: background-color 400ms ease;
   transition: background-color 400ms ease;
-  font-family: Economica, sans-serif;
+  font-family: PT Sans Narrow, sans-serif;
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
@@ -524,7 +524,7 @@ label {
   background-color: transparent;
   -webkit-transition: background-color 400ms ease;
   transition: background-color 400ms ease;
-  font-family: Economica, sans-serif;
+  font-family: PT Sans Narrow, sans-serif;
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
@@ -621,7 +621,7 @@ label {
 
 .navbar-dropdown-link {
   background-color: #bf1e2e;;
-  font-family: Economica, sans-serif;
+  font-family: PT Sans Narrow, sans-serif;
   color: #fff;
   text-transform: uppercase;
 }
@@ -842,7 +842,7 @@ label {
   position: relative;
   top: -24px;
   display: inline-block;
-  font-family: Economica, sans-serif;
+  font-family: PT Sans Narrow, sans-serif;
   color: #bf1e2e;;
   font-size: 30px;
   line-height: 30px;
@@ -851,7 +851,7 @@ label {
 
 .price-1-value {
   display: inline-block;
-  font-family: Economica, sans-serif;
+  font-family: PT Sans Narrow, sans-serif;
   color: #333333;
   font-size: 60px;
   line-height: 60px;
@@ -860,7 +860,7 @@ label {
 
 .price-1-unit {
   display: inline-block;
-  font-family: Economica, sans-serif;
+  font-family: PT Sans Narrow, sans-serif;
   color: #bf1e2e;;
   font-size: 24px;
   line-height: 24px;
@@ -888,7 +888,7 @@ label {
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
-  font-family: Economica, sans-serif;
+  font-family: PT Sans Narrow, sans-serif;
   color: #fff;
   font-weight: 700;
   text-align: center;
@@ -928,7 +928,7 @@ label {
 .price-2-price {
   padding: 30px;
   background-color: #bf1e2e;;
-  font-family: Economica, sans-serif;
+  font-family: PT Sans Narrow, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -995,7 +995,7 @@ label {
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
-  font-family: Economica, sans-serif;
+  font-family: PT Sans Narrow, sans-serif;
   color: #fff;
   text-align: center;
 }
@@ -1043,7 +1043,7 @@ label {
   position: relative;
   top: -24px;
   display: inline-block;
-  font-family: Economica, sans-serif;
+  font-family: PT Sans Narrow, sans-serif;
   color: #fff;
   font-size: 30px;
   line-height: 30px;
@@ -1052,7 +1052,7 @@ label {
 
 .price-3-value {
   display: inline-block;
-  font-family: Economica, sans-serif;
+  font-family: PT Sans Narrow, sans-serif;
   color: #333333;
   font-size: 60px;
   line-height: 60px;
@@ -1061,7 +1061,7 @@ label {
 
 .price-3-unit {
   display: inline-block;
-  font-family: Economica, sans-serif;
+  font-family: PT Sans Narrow, sans-serif;
   color: #fff;
   font-size: 24px;
   font-weight: 700;
@@ -1088,7 +1088,7 @@ label {
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
-  font-family: Economica, sans-serif;
+  font-family: PT Sans Narrow, sans-serif;
   color: #fff;
   font-weight: 700;
 }
@@ -1153,7 +1153,7 @@ label {
   margin: 20px auto;
   border: 5px solid #bf1e2e;;
   border-radius: 50%;
-  font-family: Economica, sans-serif;
+  font-family: PT Sans Narrow, sans-serif;
   color: #333333;
   font-size: 72px;
   line-height: 170px;

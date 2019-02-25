@@ -628,71 +628,9 @@
 
 	Webflow.define('brand', module.exports = function($, _) {
 	  var api = {};
-	  var $html = $('html');
-	  var $body = $('body');
-	  var location = window.location;
-	  var inApp = Webflow.env();
 
 	  // -----------------------------------
 	  // Module methods
-
-	  api.ready = function() {
-	    var doBranding = $html.attr('data-wf-status');
-	    var publishedDomain = $html.attr('data-wf-domain') || '';
-
-	    if (/\.webflow\.io$/i.test(publishedDomain) && location.hostname !== publishedDomain) {
-	      doBranding = true;
-	    }
-
-	    if (doBranding) {
-	      var $branding = $('<div></div>');
-	      var $link = $('<a></a>');
-	      $link.attr('href', 'http://webflow.com?utm_campaign=brandjs');
-
-	      $branding.css({
-	        position: 'fixed',
-	        bottom: 0,
-	        right: 0,
-	        borderTopLeftRadius: '5px',
-	        backgroundColor: '#2b3239',
-	        padding: '8px 12px 5px 15px',
-	        fontFamily: 'Arial',
-	        fontSize: '10px',
-	        textTransform: 'uppercase',
-	        opacity: '0',
-	        transition: 'opacity 0.50s ease-in-out'
-	      });
-
-	      $link.css({
-	        color: '#AAADB0',
-	        textDecoration: 'none'
-	      });
-
-	      var $webflowLogo = $('<img>');
-	      $webflowLogo.attr('src', 'https://daks2k3a4ib2z.cloudfront.net/54153e6a3d25f2755b1f14ed/5445a4b1944ecdaa4df86d3e_subdomain-brand.svg');
-	      $webflowLogo.css({
-	        opacity: 0.9,
-	        width: '57px',
-	        verticalAlign: 'middle',
-	        paddingLeft: '4px',
-	        paddingBottom: '3px'
-	      });
-
-	      $branding.text('Built with');
-	      $branding.append($webflowLogo);
-	      $link.append($branding);
-
-	      $body.append($link);
-
-	      if (/PhantomJS/.test(window.navigator.userAgent)) {
-	        return;
-	      }
-
-	      $branding.css({
-	        opacity: '1.0'
-	      });
-	    }
-	  };
 
 	  // Export module
 	  return api;
@@ -961,16 +899,6 @@
 	  function load() {
 	    loaded = true;
 	    // Predefine global immediately to benefit Webflow.env
-	    window.WebflowEditor = true;
-	    $win.off(hashchange, checkHash);
-	    $.ajax({
-	      url: cleanSlashes(("https://editor-api.webflow.com") + '/api/editor/view'),
-	      data: { siteId: $html.attr('data-wf-site') },
-	      xhrFields: { withCredentials: true },
-	      dataType: 'json',
-	      crossDomain: true,
-	      success: success
-	    });
 	  }
 
 	  function success(data) {
@@ -990,10 +918,6 @@
 	  function error(jqXHR, textStatus, errorThrown) {
 	    console.error('Could not load editor script: ' + textStatus);
 	    throw errorThrown;
-	  }
-
-	  function prefix(url) {
-	    return (url.indexOf('//') >= 0) ? url : cleanSlashes(("https://editor-api.webflow.com") + url);
 	  }
 
 	  function cleanSlashes(url) {
@@ -1208,29 +1132,6 @@
 
 	    // Disable submit button
 	    disableBtn(data);
-
-	    // Read site ID
-	    // NOTE: If this site is exported, the HTML tag must retain the data-wf-site attribute for forms to work
-	    if (!siteId) { afterSubmit(data); return; }
-	    var url = ("https://webflow.com") + '/api/v1/form/' + siteId;
-
-	    // Work around same-protocol IE XDR limitation - without this IE9 and below forms won't submit
-	    if (retro && url.indexOf(("https://webflow.com")) >= 0) {
-	      url = url.replace(("https://webflow.com"), ("http://formdata.webflow.com"));
-	    }
-
-	    $.ajax({
-	      url: url,
-	      type: 'POST',
-	      data: payload,
-	      dataType: 'json',
-	      crossDomain: true
-	    }).done(function() {
-	      data.success = true;
-	      afterSubmit(data);
-	    }).fail(function(response, textStatus, jqXHR) {
-	      afterSubmit(data);
-	    });
 	  }
 
 	  // Submit form to MailChimp

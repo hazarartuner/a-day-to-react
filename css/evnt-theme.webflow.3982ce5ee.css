@@ -1492,6 +1492,9 @@ html.w-mod-js *[data-ix="grow"] {
   .post-banner {
     height: 350px;
   }
+  .credits {
+    margin: 0 -20px;
+  }
 }
 
 @media (max-width: 479px) {

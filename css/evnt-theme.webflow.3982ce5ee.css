@@ -257,6 +257,10 @@ h5.sub-title{
     font-weight: 300;
 }
 
+.sub-title.secondary {
+    color: #888888;
+}
+
 .sub-title.no-margin.talk-subheading {
     margin-right: 30px;
     float: left;
@@ -331,24 +335,11 @@ h5.sub-title{
   background-size: auto, cover;
 }
 
-.slide.slide2 {
-  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("http://uploads.webflow.com/56d54ce746ba43341b1d19d5/570e11b7e725ba4e712ca98b_slider2.jpg");
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("http://uploads.webflow.com/56d54ce746ba43341b1d19d5/570e11b7e725ba4e712ca98b_slider2.jpg");
-  background-position: 0px 0px, 50% 50%;
-  background-size: auto, cover;
-}
-
-.slide.slide3 {
-  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("http://uploads.webflow.com/56d54ce746ba43341b1d19d5/570e120763a531793bb895c0_slider3.jpg");
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("http://uploads.webflow.com/56d54ce746ba43341b1d19d5/570e120763a531793bb895c0_slider3.jpg");
-  background-position: 0px 0px, 50% 50%;
-  background-size: auto, cover;
-}
-
 .slider-container {
-  position: static;
-  margin-top: 320px;
   text-align: center;
+position: relative;
+top: calc(50% - 10px);
+transform: translateY(-50%);
 }
 
 .speaker-list-1 {
@@ -866,6 +857,7 @@ h5.sub-title{
 .price-1-side-block {
   position: relative;
   overflow: hidden;
+  max-width: 320px;
   padding: 50px 30px;
   border: 10px solid #fff;
   background-color: #f1f0ec;
@@ -1410,7 +1402,7 @@ html.w-mod-js *[data-ix="grow"] {
     height: 600px;
   }
   .slider-container {
-    margin-top: 240px;
+      top: calc(50% + 30px);
   }
   .full-width-section.location-section {
     background-image: none;
@@ -1459,7 +1451,7 @@ html.w-mod-js *[data-ix="grow"] {
     height: 310px;
   }
   .slider-container {
-    margin-top: 90px;
+      top: calc(50% + 30px);
   }
   .hidden-on-desktops {
     display: block;
@@ -1514,7 +1506,7 @@ html.w-mod-js *[data-ix="grow"] {
     height: 260px;
   }
   .slider-container {
-    margin-top: 90px;
+      top: calc(50% + 30px);
   }
   .newsletter-fielf {
     width: 280px;

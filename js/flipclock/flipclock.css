@@ -367,6 +367,16 @@
   -moz-animation: hide 0.5s 0.3s linear both;
   animation: hide 0.5s 0.2s linear both; }
 
+@media (max-width: 767px) {
+    .flip-clock-wrapper {
+        display: none;
+    }
+
+    .slider-container {
+        padding: 0 10px;
+    }
+}
+
 @-webkit-keyframes show {
   0% {
     opacity: 0; }

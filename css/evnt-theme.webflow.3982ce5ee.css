@@ -1358,6 +1358,10 @@ transform: translateY(-50%);
   height: 95px;
 }
 
+.youtube:hover {
+  background: #444444 !important;
+}
+
 html.w-mod-js *[data-ix="on-load-appear-from-top"] {
   opacity: 0;
   -webkit-transform: translate(0px, -30px);

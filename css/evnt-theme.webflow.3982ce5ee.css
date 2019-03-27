@@ -1362,6 +1362,13 @@ transform: translateY(-50%);
   background: #444444 !important;
 }
 
+.schedule-coffee {
+  padding: 20px;
+  border: solid 2px #222;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
 html.w-mod-js *[data-ix="on-load-appear-from-top"] {
   opacity: 0;
   -webkit-transform: translate(0px, -30px);
